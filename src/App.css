@@ -1,3 +1,7 @@
+body {
+	background-image: url('/src/grid.jpg');
+	background-size: cover;
+}
 body,
 html,
 canvas,
@@ -6,4 +10,36 @@ canvas,
 	padding: 0;
 	width: 100%;
 	height: 100%;
+}
+:root {
+	--amplify-primary-color: #1f2325;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	color: #4a4a4a;
+}
+
+h1 {
+	text-align: center;
+}
+
+.dashh1 {
+	font-size: 5em;
+}
+p {
+	font-size: larger;
+}
+
+.menuIcon {
+	fill: #4a4a4a;
+	color: #4a4a4a;
+	padding: 0rem 2rem 0rem 2rem;
+}
+
+.modelhtml {
+	color: #ffffff;
 }
